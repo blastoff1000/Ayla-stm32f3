@@ -304,6 +304,8 @@ struct prop prop_table[] = {
 	    (void *)(1 << LED0_PIN), 1},
 	{ "Green_LED", ATLV_BOOL, set_led, send_led,
 	    (void *)(1 << LED1_PIN), 1},
+	{ "Red_LED", ATLV_BOOL, set_led, send_led,
+	    (void *)(1 << LED2_PIN), 1},
 	{ "module_down", ATLV_BOOL, set_module_down, send_module_down},
 	{ "cmd", ATLV_UTF8, set_cmd, send_cmd},
 	{ "input", ATLV_INT, set_input, send_int, &input, sizeof(input)},

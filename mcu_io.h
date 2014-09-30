@@ -46,6 +46,7 @@
 
 #define LED0_PIN	8		/* Blue LED */
 #define LED1_PIN	15	/* Green LED */
+#define LED2_PIN	9		/* Red LED */
 #define LED_GPIO	GPIOE
 
 #define BUTTON_GPIO	GPIOA
